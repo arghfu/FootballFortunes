@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/Add_48x48.png</file>
+        <file>icons/Cancel_48x48.png</file>
+        <file>icons/Check_48x48.png</file>
+        <file>icons/Delete_48x48.png</file>
+        <file>icons/Edit_48x48.png</file>
+        <file>icons/manager.png</file>
+        <file>icons/Next_48x48.png</file>
+        <file>icons/Redo_48x48.png</file>
+        <file>icons/Remove_48x48.png</file>
+        <file>icons/Save_48x48.png</file>
+        <file>icons/User_48x48.png</file>
+    </qresource>
+</RCC>

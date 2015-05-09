@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/cards">
+        <file alias="ManagersLuck">cards/ManagersLuck.dat</file>
+        <file alias="SelectionProblems">cards/SelectionProblems.dat</file>
+    </qresource>
+</RCC>

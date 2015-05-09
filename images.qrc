@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="FootballPlayer">images/Fussballspieler.gif</file>
+        <file alias="Money">images/geld.gif</file>
+    </qresource>
+</RCC>
