@@ -15,6 +15,9 @@ public:
     explicit FormMainWindow(QWidget *parent = 0);
     ~FormMainWindow();
 
+private slots:
+
+
 private:
     Ui::FormMainWindow *ui;
 };

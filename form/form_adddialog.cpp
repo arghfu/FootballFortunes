@@ -12,3 +12,8 @@ FormAddDialog::~FormAddDialog()
 {
     delete ui;
 }
+
+void FormAddDialog::on_buttonBox_accepted()
+{
+
+}

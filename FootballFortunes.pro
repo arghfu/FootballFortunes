@@ -9,13 +9,14 @@ FORMS += \
 
 HEADERS += \
     src/deck.h \
-    forms/formmainwindow.h \
+    form/form_mainwindow.h \
     src/mainwindow.h \
     src/manager.h \
     src/team.h \
-    forms/formcarddialog.h \
+    form/form_carddialog.h \
     src/carddialog.h \
-    forms/formadddialog.h
+    form/form_adddialog.h \
+    src/adddialog.h
 
 SOURCES += \
     src/deck.cpp \
@@ -24,14 +25,15 @@ SOURCES += \
     src/manager.cpp \
     src/team.cpp \
     src/carddialog.cpp \
-    forms/form_carddialog.cpp \
-    forms/form_mainwindow.cpp \
-    forms/formadddialog.cpp
+    form/form_carddialog.cpp \
+    form/form_mainwindow.cpp \
+    form/form_adddialog.cpp \
+    src/adddialog.cpp
 
 RESOURCES += \
     cardsList.qrc \
     data.qrc \
     images.qrc
 
-INCLUDEPATH += src forms
+INCLUDEPATH += src form
 
