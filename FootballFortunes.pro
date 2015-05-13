@@ -3,30 +3,35 @@ QT += core gui widgets
 CONFIG += console c++11
 
 FORMS += \
-    formdeckwidget.ui \
-    formmainwindow.ui
+    formmainwindow.ui \
+    formcarddialog.ui \
+    formadddialog.ui
 
 HEADERS += \
-    deck.h \
-    deckwidget.h \
-    formdeckwidget.h \
-    formmainwindow.h \
-    mainwindow.h \
-    manager.h \
-    team.h
+    src/deck.h \
+    forms/formmainwindow.h \
+    src/mainwindow.h \
+    src/manager.h \
+    src/team.h \
+    forms/formcarddialog.h \
+    src/carddialog.h \
+    forms/formadddialog.h
 
 SOURCES += \
-    deck.cpp \
-    deckwidget.cpp \
-    formdeckwidget.cpp \
-    formmainwindow.cpp \
+    src/deck.cpp \
     main.cpp \
-    mainwindow.cpp \
-    manager.cpp \
-    team.cpp
+    src/mainwindow.cpp \
+    src/manager.cpp \
+    src/team.cpp \
+    src/carddialog.cpp \
+    forms/form_carddialog.cpp \
+    forms/form_mainwindow.cpp \
+    forms/formadddialog.cpp
 
 RESOURCES += \
     cardsList.qrc \
     data.qrc \
     images.qrc
+
+INCLUDEPATH += src forms
 

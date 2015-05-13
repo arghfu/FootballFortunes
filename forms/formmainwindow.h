@@ -4,7 +4,7 @@
 #include <QMainWindow>
 
 namespace Ui {
-class FormMainWindow;
+    class FormMainWindow;
 }
 
 class FormMainWindow : public QMainWindow

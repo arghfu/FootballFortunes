@@ -14,8 +14,8 @@ private:
 
 public:
     Manager();
-    Manager(QString name);
-    Manager(QString name,QString team);
+    Manager(const QString name);
+    Manager(const QString name,const QString team);
 };
 
 #endif // MANAGER_H

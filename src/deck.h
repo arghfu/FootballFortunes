@@ -9,14 +9,12 @@ class Deck {
 
 private:
     QList<QString> cards;
+    QString filename;
 public:
-    Deck();
-    void readData(QString filename);
-    void shuffleDeck();
-    QString takeCard();
-    int count();
-    bool isEmpty();
-    void outs();
+    Deck():Deck (""){};
+    Deck(const QString &filename);
+    auto shuffleDeck() -> void;
+    auto takeCard() -> QString;
 };
 
 #endif // DECK_H

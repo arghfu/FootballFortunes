@@ -1,7 +1,8 @@
 #include <QApplication>
 #include <QDebug>
 #include "mainwindow.h"
-#include "deckwidget.h"
+
+#include "carddialog.h"
 
 int main (int argc, char **argv)
 {
@@ -11,6 +12,7 @@ int main (int argc, char **argv)
     MainWindow Manager;
 
     Manager.show();
+
 
 
 
